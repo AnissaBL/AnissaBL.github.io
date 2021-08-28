@@ -73,7 +73,8 @@ header .main-container .header-container {
 }
 
 .s-mob {
-  margin-top: 5px;
+  margin-top: 25px;
+  margin-left: 20px;
 }
 
 .nav-hebergement {
@@ -217,7 +218,7 @@ header {
   flex-direction: column;
 }
 
-form.recherche button[type="none"] {
+form.recherche button[type="menu"] {
   background: #f2f2f2;
   border: 1px #f2f2f2 solid;
   padding: 5px 15px;
@@ -234,8 +235,10 @@ form.recherche button[type="submit"] {
   border-radius: 0 15px 15px 0;
   color: #fff;
   height: 43px;
+  align-items: center;
   padding: 0px 15px;
 }
+
 
 @media (max-width: 640px) {
   form.recherche button[type="submit"] {
@@ -245,13 +248,13 @@ form.recherche button[type="submit"] {
 }
 
 @media (max-width: 640px) {
-  p.textbtn {
+  .textbtn {
     display: none;
   }
 }
 
 @media (min-width: 640px) {
-  p.textbtn2 {
+  .textbtn2 {
     display: none;
   }
 }
@@ -530,6 +533,7 @@ figure:hover {
 #hebergement .stonk {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #hebergement h1 i {
