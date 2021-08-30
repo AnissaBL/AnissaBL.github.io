@@ -601,7 +601,7 @@ figure:hover {
 @media (min-width: 991px) {
   #activites .group-item {
     width: 50%;
-    display: flex;
+    display: block;
   }
   #activites .group-item .columndouble,
   #activites .group-item .column {
